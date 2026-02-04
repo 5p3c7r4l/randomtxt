@@ -1,0 +1,159 @@
+{
+  "Host": "26.104.211.101",
+  "BinPath": "bin",
+  "Language": "fr",
+  "DisableSoftCrash": false,
+  "HideLoginNotice": false,
+  "LoginNotices": [
+    "<BODY><CENTER><SIZE_3><C_1>Bienvenue sur MHF-Z!<BR><BODY><C_1>Beta Ouverte<BR><BODY><BR><BODY><LEFT><SIZE_2><C_2>https://discord.gg/uE3rZMSbnZ<BR><BODY><C_3>lotterie d'Avril disponible!<BR><BODY><BR><BODY><C_4>Trouvez notre client sur Discord!<BR><BODY><BR><BODY><C_4>Informez nous des bugs sur Discord!<C_7><BR><BODY><BR><BODY><C_4>Donnez votre avis!<C_7><BR><BODY><BR><BODY><C_4>Soyez Respectueux!<C_7><BR><BODY><BR><BODY><C_4>LA TRICHE EST INTERDITE!<C_7><BR><BODY><BR><BODY><C_4>Patch Fr 1.0!"
+  ],
+  "PatchServerManifest": "",
+  "PatchServerFile": "",
+  "ScreenshotAPIURL": "",
+  "DeleteOnSaveCorruption": false,
+  "DevMode": true,
+  "DevModeOptions": {
+    "AutoCreateAccount": true,
+    "CleanDB": false,
+    "MaxLauncherHR": false,
+    "LogInboundMessages": true,
+    "LogOutboundMessages": true,
+    "MaxHexdumpLength": 256,
+    "DivaEvent": 2,
+    "FestaEvent": -1,
+    "TournamentEvent": 0,
+    "MezFesEvent": true,
+    "MezFesAlt": true,
+    "DisableTokenCheck": false,
+    "QuestDebugTools": false,
+    "SaveDumps": {
+      "Enabled": true,
+      "OutputDir": "savedata"
+    }
+  },
+  "GameplayOptions": {
+    "FeaturedWeapons": 14,
+    "MaximumNP": 100000,
+    "MaximumRP": 50000,
+    "DisableLoginBoost": false,
+    "DisableBoostTime": false,
+    "BoostTimeDuration": 120,
+    "GuildMealDuration": 120,
+    "BonusQuestAllowance": 3,
+    "DailyQuestAllowance": 1
+  },
+  "Discord": {
+    "Enabled": false,
+    "BotToken": "",
+    "RealtimeChannelID": ""
+  },
+  "Commands": [
+    {
+      "Name": "Rights",
+      "Enabled": false,
+      "Prefix": "!rights"
+    }, {
+      "Name": "Raviente",
+      "Enabled": true,
+      "Prefix": "!ravi"
+    }, {
+      "Name": "Teleport",
+      "Enabled": false,
+      "Prefix": "!tele"
+    }, {
+      "Name": "Reload",
+      "Enabled": true,
+      "Prefix": "!reload"
+    }, {
+      "Name": "KeyQuest",
+      "Enabled": false,
+      "Prefix": "!kqf"
+    }, {
+      "Name": "Course",
+      "Enabled": true,
+      "Prefix": "!course"
+    }, {
+      "name": "EffectLevel",
+      "enabled": true,
+      "prefix": "!effect"
+    }, {
+       "name": "Song",
+      "enabled": true,
+      "prefix": "!song"
+    }, {
+       "name": "Skin",
+      "enabled": true,
+      "prefix": "!skin"
+    }
+  ],
+  "Courses": [
+    {"Name": "HunterLife", "Enabled": true},
+    {"Name": "Extra", "Enabled": true},
+    {"Name": "Premium", "Enabled": true},
+    {"Name": "Assist", "Enabled": false},
+    {"Name": "N", "Enabled": false},
+    {"Name": "Hiden", "Enabled": false},
+    {"Name": "HunterSupport", "Enabled": false},
+    {"Name": "NBoost", "Enabled": false},
+    {"Name": "NetCafe", "Enabled": true},
+    {"Name": "HLRenewing", "Enabled": true},
+    {"Name": "EXRenewing", "Enabled": true}
+  ],
+  "Database": {
+    "Host": "localhost",
+    "Port": 5432,
+    "User": "postgres",
+    "Password": "Zu27y6e4",
+    "Database": "erupe"
+  },
+  "Sign": {
+    "Enabled": true,
+    "Port": 53312
+  },
+  "SignV2": {
+    "Enabled": false,
+    "Port": 8080
+  },
+  "Channel": {
+    "Enabled": true
+  },
+  "Entrance": {
+    "Enabled": true,
+    "Port": 53310,
+    "Entries": [
+      {
+        "Name": "Newbie", "Description": "", "IP": "26.201.172.249", "Type": 3, "Recommended": 2, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54001, "MaxPlayers": 100 },
+          { "Port": 54002, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Normal", "Description": "", "IP": "26.201.172.249", "Type": 1, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54003, "MaxPlayers": 100 },
+          { "Port": 54004, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Cities", "Description": "", "IP": "26.201.172.249", "Type": 2, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54005, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Tavern", "Description": "", "IP": "26.201.172.249", "Type": 4, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54006, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Return", "Description": "", "IP": "26.201.172.249", "Type": 5, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54007, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "MezFes", "Description": "", "IP": "26.201.172.249", "Type": 6, "Recommended": 6, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54008, "MaxPlayers": 100 }
+        ]
+      }
+    ]
+  }
+}
